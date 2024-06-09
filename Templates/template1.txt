@@ -1,0 +1,33 @@
+#Gives access to all the scripts in the directory
+import sys
+sys.path.append('../')
+
+
+#boiler plate code for all clients
+from Custom_Scripts.debug import debug
+from Custom_Scripts.model_architecture import model_initialisation
+from Custom_Scripts.ClassPronto import Pronto
+from Custom_Scripts.drift import drift
+from Custom_Scripts.TrainTestSplit import custom_train_test_split
+from Custom_Scripts.ClientID import create_clientid
+from Custom_Scripts.ClassClients import Client_fn, load_previous_client_model, signal_status_completion, save_client_results, create_results_file, get_a_random_number, save_confidence_scores, create_confidenceScores_file, get_updated_clusters_from_server, train_client_model_for_cohorting, evaluate_model_and_plot_stacked_bar_chart, check_if_path_exists
+from Custom_Scripts.constants import BASE_PATH
+from Custom_Scripts.DriftDetection import drift_detection
+from Custom_Scripts.DriftAdaption import AdaptDrift
+from Custom_Scripts.update_cluster import find_similar_clients, split_clusters
+from Custom_Scripts.Eval_and_CheckDrfit import eval_and_confirmdrfit
+
+#import necessary libraries
+import os
+import time
+import tensorflow as tf
+import flwr as fl
+import numpy as np
+import pandas as pd
+import warnings
+import random
+from collections import deque
+import matplotlib.pyplot as plt
+# Filter out Keras warnings about saving models in HDF5 format
+warnings.filterwarnings("ignore", category=UserWarning, module=".*tensorflow.keras.*")
+
