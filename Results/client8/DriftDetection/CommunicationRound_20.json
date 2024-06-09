@@ -1,0 +1,16 @@
+{
+  "client_id": 8,
+  "comm_round": 20,
+  "Delta": 20,
+  "Sensitivity": 0.05,
+  "Lambda_val": 0.05,
+  "Th": 2.995732273553991,
+  "Recent_scores_mean": 0.20000000298023224,
+  "Old_scores_mean": 0.20000000298023224,
+  "alpha_a": null,
+  "beta_a": null,
+  "alpha_b": null,
+  "beta_b": null,
+  "sk": null,
+  "sf": 0
+}

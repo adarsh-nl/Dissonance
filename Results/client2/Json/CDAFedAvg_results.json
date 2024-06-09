@@ -1,0 +1,9 @@
+{"comm_round": 2, "loss": 0.0003661437949631363, "accuracy": 1.0}
+{"comm_round": 3, "loss": 11.547757148742676, "accuracy": 0.1966666728258133}
+{"comm_round": 4, "loss": 0.09362131357192993, "accuracy": 1.0}
+{"comm_round": 5, "loss": 10.980310440063477, "accuracy": 0.18799999356269836}
+{"comm_round": 6, "loss": 0.16708053648471832, "accuracy": 1.0}
+{"comm_round": 7, "loss": 10.33324909210205, "accuracy": 0.19333332777023315}
+{"comm_round": 8, "loss": 0.06909739226102829, "accuracy": 1.0}
+{"comm_round": 9, "loss": 10.834389686584473, "accuracy": 0.1899999976158142}
+{"comm_round": 10, "loss": 0.11544398963451385, "accuracy": 1.0}
